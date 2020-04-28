@@ -107,7 +107,6 @@ input[type='checkbox']{
   display: grid;
   grid-gap: 7.5vh 2vw;
   grid-template-columns: auto auto;
-  //background-color: lightgrey;
   left: 15vw;
   right: 0vw;
   top: 0vh;
@@ -124,7 +123,7 @@ input[type='checkbox']{
 
 .person img{
   width: 200px;
-  height: 200px;
+  max-height: 200px;
   padding-right: 5px;
 }
 

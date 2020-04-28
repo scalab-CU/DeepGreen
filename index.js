@@ -14,7 +14,7 @@ function transitionCollapsible(collapsible){
 function createTopNav(){
   var a = document.createElement("DIV")
   a.innerHTML = "<a href=\"./index.html\">Home</a>\
-  <a href=\"./documents.html\">Documents</a>\
+  <a href=\"./Resources\">Resources</a>\
   <a href=\"./results.html\">Results</a>\
   <a href=\"./people.html\">People</a>";
   a.setAttribute("class", "top_navbar");
