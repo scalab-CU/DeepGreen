@@ -18,7 +18,7 @@ input[type='checkbox']{
   display:none;
 }
 
-.main{
+#main{
   padding-top: 5vh;
   padding-bottom: 2vh;
 }
@@ -106,38 +106,45 @@ input[type='checkbox']{
 #people{
   display: grid;
   grid-gap: 7.5vh 2vw;
-  grid-template-columns: auto auto;
+  grid-template-columns: 49.25% 49.25%;
   left: 15vw;
   right: 0vw;
   top: 0vh;
   bottom: 0vh;
   position: fixed;
   padding-top: 7.5vh;
+  padding-bottom: 2.5vh;
   padding-left: 2.5vw;
   overflow-y: scroll;
 }
 
 .person{
   text-align: left;
+  overflow-x: hidden;
 }
 
 .person img{
   width: 200px;
   max-height: 200px;
+  min-height: 150px;
   padding-right: 5px;
 }
 
-#soc_logo{
-  position: relative;
+#logoContainer{
+  display: table;
+  margin: 0 auto;
   padding-top: 5vh;
-  left: 30vw;
-  //bottom: 1vh;
 }
 
-#submer_logo{
+#logoContainer p{
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.logo{
   position: relative;
-  left: 30vw;
-  //bottom: 1vh;
+  padding-right: 2.5vw;
+  max-height: 60px;
 }
 
 #sidebar{
@@ -147,21 +154,51 @@ input[type='checkbox']{
   background-color: grey;
   top: 5vh;
   bottom: 0vh;
+  display: grid;
+  grid-template-columns: auto;
 }
 
-#sidebar a{
+#sidebar button{
   font-family: Cabin;
   font-size: 20px;
   float: left;
   color: #fff;
   text-align: left;
   padding-top: 2vh;
-  padding-right: 3vw;
-  padding-left: 1vw;
-  text-decoration: none;
+  padding-left: .5vw;
+  overflow-x: hidden;
+  background-color: inherit;
+  border-style: none;
+}
+
+#sidebar button:hover{
+  color: #000;
+  cursor: pointer;
+}
+
+#servers{
+  display: grid;
+  grid-gap: 7.5vh 2vw;
+  grid-template-columns: auto auto;
+  left: 15vw;
+  right: 0vw;
+  top: 0vh;
+  bottom: 0vh;
+  position: fixed;
+  padding-top: 7.5vh;
+  padding-bottom: 2.5vh;
+  padding-left: 2.5vw;
+  overflow-y: scroll;
+}
+
+.server{
+  height: auto;
+  width: 100%;
+  background-color: inherit;
+  text-align: left;
   overflow-x: hidden;
 }
 
-#sidebar a:hover{
-  color: #000;
+.server b{
+  font-size: 150%;
 }
