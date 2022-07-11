@@ -80,7 +80,6 @@ function pastPeople(){
   }
 }
 
-
 window.onload = function(){
   createTopNav();
   allPeople();
