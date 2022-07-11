@@ -1,6 +1,7 @@
 people = {};
-people['Tyler Allen'] = {name: 'Tyler Allen', image: './images/people/blank.jpg', groups: 'SCALab', email: 'tnallen@clemson.edu', status: 'Active Member'};
-people['Trip Bastian'] = {name: 'Trip Bastian', image: './images/people/blank.jpg', groups: 'Creative Inquiry Spring 2020, SCALab', email: 'rtbasti@clemson.edu', status: 'Active Member'};
+people['Tyler Allen'] = {name: 'Tyler Allen', image: './images/people/blank.jpg', groups: 'SCALab', email: 'tnallen@clemson.edu', status: 'Past Member, now Assit Prof. UNCC'};
+people['Naman Kulshreshtha'] = {name: 'Naman Kulshreshtha', image: './images/people/blank.jpg', groups: 'SCALab', email: 'nkulshr@g.clemson.edu', status: 'Active Member'};
+people['Trip Bastian'] = {name: 'Trip Bastian', image: './images/people/blank.jpg', groups: 'Creative Inquiry Spring 2020, SCALab', email: 'rtbasti@clemson.edu', status: 'Past Member'};
 people['Jesse Brown'] = {name: 'Jesse Brown', image: './images/people/Jesse\ Brown.jpg', groups: 'Capstone Spring 2020', email: 'jlb4@clemson.edu', status: 'Past Member'};
 people['Bennett Cooper'] = {name: 'Bennett Cooper', image: './images/people/Bennett\ Cooper.png', groups: 'Capstone Spring 2020, Creative Inquiry 19-20, SCALab', email: 'bwc@clemson.edu', status: 'Active Member'};
 people['Rong Ge'] = {name: 'Rong Ge', image: './images/people/blank.jpg', groups: 'Faculty Advisor', email: 'rge@clemson.edu', status: 'Active Member'};
@@ -10,7 +11,7 @@ people['Charles Ritter'] = {name: 'Charles Ritter', image: './images/people/Char
 
 cap = [];
 ci = [];
-lab = ['Bennett Cooper', 'Rong Ge', 'Tyler Allen', 'Trip Bastian'];
+lab = ['Bennett Cooper', 'Rong Ge', 'Naman Kulshreshtha'];
 
 function createPerson(name){
   var a = document.createElement('P');
